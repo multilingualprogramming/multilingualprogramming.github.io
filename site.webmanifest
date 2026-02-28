@@ -1,0 +1,17 @@
+{
+  "name": "Multilingual Programming Language",
+  "short_name": "multilingual",
+  "description": "Write code in 17 human languages with one formal core.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#03020d",
+  "theme_color": "#080718",
+  "icons": [
+    {
+      "src": "/assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
