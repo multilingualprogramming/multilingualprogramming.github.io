@@ -12,7 +12,8 @@ The site is a static single-page experience built around [`index.html`](./index.
 
 ## Related repositories
 
-- Core language project: [github.com/johnsamuelwrites/multilingual](https://github.com/johnsamuelwrites/multilingual)
+- Core language project: [github.com/multilingualprogramming/multilingual](https://github.com/multilingualprogramming/multilingual)
+- Original repository: [github.com/johnsamuelwrites/multilingual](https://github.com/johnsamuelwrites/multilingual)
 - Documentation repository: [github.com/multilingualprogramming/docs](https://github.com/multilingualprogramming/docs)
 - Playground repository: [github.com/multilingualprogramming/playground](https://github.com/multilingualprogramming/playground)
 
