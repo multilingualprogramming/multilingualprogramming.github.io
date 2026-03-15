@@ -17,7 +17,7 @@
     <meta property="og:site_name" content="Multilingual Programming Language" />
     <meta property="og:title" content="Multilingual Programming Language" />
     <meta property="og:description"
-      content="Write code in 17 human languages. One formal core. Python and WASM backends." />
+      content="Write code in 17 human languages. One formal core. Python and WAT/WASM backends." />
     <meta property="og:url" content="https://multilingualprogramming.github.io/" />
     <meta property="og:image" content="https://multilingualprogramming.github.io/assets/images/og-image.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -1535,7 +1535,7 @@
         <li><a href="#languages">Languages</a></li>
         <li><a href="#install">Install</a></li>
         <li><a href="#pipeline">Pipeline</a></li>
-        <li><a href="https://github.com/multilingualprogramming" target="_blank" rel="noopener">GitHub ↗</a></li>
+        <li><a href="https://multilingualprogramming.github.io/docs/" target="_blank" rel="noopener">Docs ↗</a></li>
       </ul>
       <div class="nav-cta">
         <a href="https://pypi.org/project/multilingualprogramming/" target="_blank" rel="noopener"
@@ -1557,7 +1557,7 @@
 
       <div class="hero-badge">
         <span class="hero-badge-dot"></span>
-        Now on PyPI &mdash; multilingualprogramming v0.4
+        multilingualprogramming v0.6.0 &mdash; Python + WAT/WASM + OOP
       </div>
 
       <h1 class="hero-title">
@@ -1567,8 +1567,8 @@
       <p class="hero-subtitle-line">Write code in your native tongue.</p>
       <p class="hero-desc">
         A multilingual programming language where you write in English, French,
-        Japanese, Arabic, Hindi, and more &mdash; all compiling into a single
-        formal core with one unified execution pipeline.
+        Japanese, Arabic, Hindi, and more &mdash; all compiling into one
+        formal core with Python and WAT/WASM execution paths.
       </p>
 
       <div class="hero-actions">
@@ -1580,7 +1580,7 @@
           </svg>
           Install Now
         </a>
-        <a href="https://github.com/multilingualprogramming" target="_blank" rel="noopener" class="btn btn-ghost">
+          <a href="https://github.com/johnsamuelwrites/multilingual" target="_blank" rel="noopener" class="btn btn-ghost">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
             <path
               d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.1.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.54-1.38-1.33-1.75-1.33-1.75-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.83.57C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
@@ -1782,26 +1782,26 @@
             <div class="stat-label">Human Languages</div>
           </div>
           <div class="stat-card">
-            <div class="stat-num grad-text-2">1</div>
-            <div class="stat-label">Formal Core</div>
+            <div class="stat-num grad-text-2">1,937</div>
+            <div class="stat-label">Tests</div>
           </div>
           <div class="stat-card">
             <div class="stat-num"
               style="background:linear-gradient(135deg,#10b981,#6ee7b7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">
-              ∞</div>
-            <div class="stat-label">Pipeline Steps</div>
+              41</div>
+            <div class="stat-label">Localized Builtins</div>
           </div>
           <div class="stat-card">
             <div class="stat-num"
               style="background:linear-gradient(135deg,#f97316,#fbbf24);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">
-              .ml</div>
-            <div class="stat-label">File Extension</div>
+              0.6.0</div>
+            <div class="stat-label">Current Version</div>
           </div>
           <div class="stat-card">
             <div class="stat-num"
               style="background:linear-gradient(135deg,#ec4899,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">
-              GPLv3</div>
-            <div class="stat-label">Open Source License</div>
+              3.12+</div>
+            <div class="stat-label">Python Required</div>
           </div>
         </div>
       </div>
@@ -1828,8 +1828,8 @@
           <div class="feature-card reveal reveal-delay-2">
             <div class="feature-icon icon-cyan">⚡</div>
             <h3 class="feature-title">Single Execution Pipeline</h3>
-            <p class="feature-body">Surface → Lexer → Parser → Core AST → Semantic checks → Python codegen → Runtime.
-              The same unified flow for every language frontend.</p>
+            <p class="feature-body">Surface → Lexer → Parser → Core AST → semantic checks → Python or WAT codegen.
+              The same formal model powers every language frontend.</p>
           </div>
           <div class="feature-card reveal reveal-delay-3">
             <div class="feature-icon icon-green">🔌</div>
@@ -1840,15 +1840,15 @@
           <div class="feature-card reveal reveal-delay-1">
             <div class="feature-icon icon-pink">💬</div>
             <h3 class="feature-title">REPL-First Experience</h3>
-            <p class="feature-body">Start the interactive REPL instantly, switch languages live with
-              <code>:language fr</code>, inspect keywords with <code>:kw</code>, and execute line-by-line.
+            <p class="feature-body">Start instantly with <code>multilingual</code> or <code>multilingual repl</code>,
+              switch languages live, and inspect generated Python, WAT, or Rust bridge output.
             </p>
           </div>
           <div class="feature-card reveal reveal-delay-2">
             <div class="feature-icon icon-orange">🔀</div>
             <h3 class="feature-title">Cross-Language Modules</h3>
-            <p class="feature-body">Import <code>.ml</code> modules written in one language from another. A French
-              module and an English main file work together seamlessly.</p>
+            <p class="feature-body">Import <code>.ml</code> modules across languages. A French module and an English
+              main file can run through the same execution pipeline.</p>
           </div>
           <div class="feature-card reveal reveal-delay-3">
             <div class="feature-icon icon-blue">🔢</div>
@@ -2064,7 +2064,7 @@
         <p class="section-label reveal">Quick Start</p>
         <h2 class="section-title reveal">Up and running<br /><span class="grad-text">in 60 seconds.</span></h2>
         <p class="section-body reveal">Install from PyPI, write a <code>.ml</code> file in your language, and run it.
-          Requires Python 3.12 or newer.</p>
+          Requires Python 3.12 or newer. Optional extras enable the WAT/WASM toolchain.</p>
 
         <div class="install-grid">
           <div class="install-card reveal reveal-delay-1">
@@ -2074,9 +2074,9 @@
             </div>
             <div class="install-card-body">
               <pre
-                id="pip-venv"><span class="tok-prompt">$</span> <span class="tok-cmd">python3 -m venv</span> <span class="tok-arg">.venv</span>
-<span class="tok-prompt">$</span> <span class="tok-cmd">source</span> <span class="tok-arg">.venv/bin/activate</span>
-<span class="tok-prompt">$</span> <span class="tok-cmd">pip install</span> <span class="tok-arg">multilingualprogramming</span></pre>
+                id="pip-venv"><span class="tok-prompt">$</span> <span class="tok-cmd">python -m pip install --upgrade</span> <span class="tok-arg">pip</span>
+<span class="tok-prompt">$</span> <span class="tok-cmd">python -m pip install</span> <span class="tok-arg">multilingualprogramming[wasm]</span>
+<span class="tok-prompt">$</span> <span class="tok-cmd">python -m pip install</span> <span class="tok-arg">multilingualprogramming[performance]</span></pre>
             </div>
           </div>
 
@@ -2101,7 +2101,7 @@
                 id="run-ml"><span class="tok-cmt"># hello.ml</span>
 <span class="tok-fn">print</span><span class="tok-punc">(</span><span class="tok-str">"Hello world"</span><span class="tok-punc">)</span>
 
-<span class="tok-prompt">$</span> <span class="tok-cmd">multilingual run</span> <span class="tok-arg">hello.ml</span>
+<span class="tok-prompt">$</span> <span class="tok-cmd">multilingual</span> <span class="tok-arg">hello.ml</span>
 <span class="tok-prompt">$</span> <span class="tok-cmd">multilingual run</span> <span class="tok-arg">bonjour.ml</span> <span class="tok-flag">--lang fr</span></pre>
             </div>
           </div>
@@ -2113,9 +2113,9 @@
             </div>
             <div class="install-card-body">
               <pre
-                id="repl-cmd"><span class="tok-prompt">$</span> <span class="tok-cmd">multilingual repl</span>
-<span class="tok-prompt">$</span> <span class="tok-cmd">multilingual repl</span> <span class="tok-flag">--lang fr</span>
-<span class="tok-prompt">$</span> <span class="tok-cmd">multilingual repl</span> <span class="tok-flag">--lang ja --show-python</span></pre>
+                id="repl-cmd"><span class="tok-prompt">$</span> <span class="tok-cmd">multilingual</span>
+<span class="tok-prompt">$</span> <span class="tok-cmd">multilingual repl</span> <span class="tok-flag">--lang fr --show-python</span>
+<span class="tok-prompt">$</span> <span class="tok-cmd">multilingual repl</span> <span class="tok-flag">--lang ja --show-wat --show-rust</span></pre>
             </div>
           </div>
 
@@ -2181,33 +2181,33 @@
         <div class="wasm-grid">
           <div>
             <p class="section-label reveal">Advanced</p>
-            <h2 class="section-title reveal">Modern runtime.<br /><span class="grad-text">WASM-ready.</span></h2>
+            <h2 class="section-title reveal">Modern runtime.<br /><span class="grad-text">WAT/WASM-ready.</span></h2>
             <p class="section-body reveal" style="margin-bottom:32px;">The architecture targets multiple backends. The
-              WASM infrastructure adds a Rust intermediate representation compiled through Cranelift — bringing
-              near-native performance and browser-deployable execution.</p>
+              production-ready WASM path lowers the multilingual core to WAT for browser and Wasmtime execution, while
+              the Rust/Cranelift path remains scaffolded for future work.</p>
             <div class="wasm-points">
               <div class="wasm-point reveal">
                 <div class="wasm-point-icon">🦀</div>
                 <div>
-                  <div class="wasm-point-title">Rust Intermediate</div>
-                  <p class="wasm-point-body">AST lowers to Rust-style IR before Cranelift compilation, enabling
-                    aggressive optimization passes.</p>
+                  <div class="wasm-point-title">WAT Path First</div>
+                  <p class="wasm-point-body"><code>WATCodeGenerator</code> lowers the core IR directly to executable
+                    WebAssembly Text, including class methods and stateful OOP instances.</p>
                 </div>
               </div>
               <div class="wasm-point reveal">
                 <div class="wasm-point-icon">🌐</div>
                 <div>
-                  <div class="wasm-point-title">Browser Deployable</div>
-                  <p class="wasm-point-body">WASM binaries run in any modern browser — enabling in-browser multilingual
-                    programming environments.</p>
+                  <div class="wasm-point-title">Browser Playground</div>
+                  <p class="wasm-point-body">The project ships a browser playground that can execute programs, show
+                    generated Python, and inspect generated WAT/WASM output.</p>
                 </div>
               </div>
               <div class="wasm-point reveal">
                 <div class="wasm-point-icon">📦</div>
                 <div>
-                  <div class="wasm-point-title">Standard Library (17 langs)</div>
-                  <p class="wasm-point-body">The full localized stdlib ships alongside WASM output — localized builtins
-                    work at native speed.</p>
+                  <div class="wasm-point-title">Rust/Cranelift Roadmap</div>
+                  <p class="wasm-point-body">A Rust bridge and Cranelift-oriented path exist in the codebase, but the
+                    docs currently describe that track as planned rather than production-ready.</p>
                 </div>
               </div>
             </div>
@@ -2218,7 +2218,7 @@
                 <span class="code-window-dot cwd-red"></span>
                 <span class="code-window-dot cwd-amber"></span>
                 <span class="code-window-dot cwd-green"></span>
-                <div class="code-window-title">WASM Architecture</div>
+                <div class="code-window-title">WAT / WASM Architecture</div>
               </div>
               <div class="code-window-body">
                 <pre style="font-size:0.75rem;line-height:1.9;color:var(--text-secondary)"><span style="color:var(--purple-light)">Source .ml (17 langs)</span>
@@ -2227,21 +2227,23 @@
 <span style="color:var(--cyan-light)">Lexer + Parser</span>
        │
        ▼
-<span style="color:var(--green-light)">AST (Core)</span>
+<span style="color:var(--green-light)">Core AST / Core IR</span>
        │
    ┌───┴────┐
    ▼        ▼
-<span style="color:var(--orange)">Python  WASM</span>
+<span style="color:var(--orange)">Python   WAT</span>
 <span style="color:var(--orange)">Codegen  Codegen</span>
             │
             ▼
-      <span style="color:var(--pink)">Rust IR</span>
+      <span style="color:var(--pink)">wat2wasm / wabt</span>
             │
             ▼
-      <span style="color:var(--cyan)">Cranelift</span>
+ <span style="color:var(--cyan)">Browser / Wasmtime</span>
             │
             ▼
-    <span style="color:var(--green-light)">.wasm Binary</span></pre>
+  <span style="color:var(--green-light)">Stable WASM path</span>
+
+<span style="color:var(--text-muted)">Rust / Cranelift path: planned</span></pre>
               </div>
             </div>
           </div>
@@ -2306,7 +2308,8 @@
             <div class="feature-icon icon-pink">🏃</div>
             <h3 class="feature-title">Runtime</h3>
             <p class="feature-body"><code>PythonCodeGenerator</code>, <code>RuntimeBuiltins</code>,
-              <code>ProgramExecutor</code>, and <code>REPL</code> — embed the full execution pipeline.
+              <code>ProgramExecutor</code>, <code>REPL</code>, and <code>WATCodeGenerator</code> — embed the full
+              execution pipeline.
             </p>
           </div>
           <div class="feature-card reveal reveal-delay-3">
@@ -2329,7 +2332,7 @@
           Start coding<br />in <span class="grad-text">your language.</span>
         </h2>
         <p class="cta-body reveal">Install multilingual in seconds and write your first program in your native tongue.
-          All 17 language frontends ship in the same package.</p>
+          All 17 language frontends ship in the same package, with optional extras for WASM workflows.</p>
         <div class="cta-actions reveal">
           <a href="#install" class="btn btn-primary">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
@@ -2339,7 +2342,10 @@
             </svg>
             pip install multilingualprogramming
           </a>
-          <a href="https://github.com/multilingualprogramming" target="_blank" rel="noopener" class="btn btn-ghost">
+          <a href="https://johnsamuel.info/multilingual/playground.html" target="_blank" rel="noopener" class="btn btn-ghost">
+            Open Playground ↗
+          </a>
+          <a href="https://multilingualprogramming.github.io/docs/" target="_blank" rel="noopener" class="btn btn-ghost">
             View Documentation ↗
           </a>
         </div>
@@ -2364,25 +2370,27 @@
         <div>
           <div class="footer-col-title">Project</div>
           <ul class="footer-links">
-            <li><a href="https://github.com/multilingualprogramming" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://github.com/johnsamuelwrites/multilingual" target="_blank" rel="noopener">GitHub</a></li>
             <li><a href="https://pypi.org/project/multilingualprogramming/" target="_blank" rel="noopener">PyPI
                 Package</a></li>
-            <li><a href="https://github.com/multilingualprogramming/multilingual/blob/main/CHANGELOG.md" target="_blank"
+            <li><a href="https://github.com/johnsamuelwrites/multilingual/blob/main/CHANGELOG.md" target="_blank"
                 rel="noopener">Changelog</a></li>
-            <li><a href="https://github.com/multilingualprogramming/multilingual/blob/main/CONTRIBUTING.md"
+            <li><a href="https://github.com/johnsamuelwrites/multilingual/blob/main/CONTRIBUTING.md"
                 target="_blank" rel="noopener">Contributing</a></li>
           </ul>
         </div>
         <div>
           <div class="footer-col-title">Docs</div>
           <ul class="footer-links">
-            <li><a href="https://github.com/multilingualprogramming/multilingual/blob/main/USAGE.md" target="_blank"
+            <li><a href="https://johnsamuel.info/multilingual/playground.html" target="_blank"
+                rel="noopener">Playground</a></li>
+            <li><a href="https://github.com/johnsamuelwrites/multilingual/blob/main/USAGE.md" target="_blank"
                 rel="noopener">Usage Guide</a></li>
-            <li><a href="https://github.com/multilingualprogramming/multilingual/blob/main/docs/reference.md"
+            <li><a href="https://github.com/johnsamuelwrites/multilingual/blob/main/docs/reference.md"
                 target="_blank" rel="noopener">Reference</a></li>
-            <li><a href="https://github.com/multilingualprogramming/multilingual/blob/main/docs/design.md"
+            <li><a href="https://github.com/johnsamuelwrites/multilingual/blob/main/docs/design.md"
                 target="_blank" rel="noopener">Design</a></li>
-            <li><a href="https://github.com/multilingualprogramming/multilingual/blob/main/docs/core_spec.md"
+            <li><a href="https://github.com/johnsamuelwrites/multilingual/blob/main/docs/core_spec.md"
                 target="_blank" rel="noopener">Core Spec</a></li>
           </ul>
         </div>
@@ -2398,12 +2406,12 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p class="footer-copy">© 2025 multilingualprogramming. Code: GPLv3+ · Docs: CC BY-SA 4.0</p>
+        <p class="footer-copy">© 2026 multilingualprogramming. Code: GPLv3+ · Docs: CC BY-SA 4.0</p>
         <div class="footer-badges">
           <span class="footer-badge">🐍 Python 3.12+</span>
           <span class="footer-badge">📦 PyPI</span>
           <span class="footer-badge">🌐 17 Languages</span>
-          <span class="footer-badge">⚙️ WASM-ready</span>
+          <span class="footer-badge">⚙️ WAT/WASM</span>
         </div>
       </div>
     </footer>
