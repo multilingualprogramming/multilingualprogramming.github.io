@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-03-15",
+  "projects": [
+    {
+      "id": "main-site",
+      "name": "Multilingual Programming Language",
+      "category": "landing",
+      "description": "Main landing page for the multilingual programming language ecosystem.",
+      "repo_url": "https://github.com/multilingualprogramming/multilingual",
+      "alternate_repo_urls": [
+        "https://github.com/johnsamuelwrites/multilingual"
+      ],
+      "site_url": "https://multilingualprogramming.github.io/",
+      "language": "multilingual",
+      "status": "active",
+      "last_reviewed": "2026-03-15"
+    },
+    {
+      "id": "documentation",
+      "name": "Documentation",
+      "category": "docs",
+      "description": "Project documentation site and source repository.",
+      "repo_url": "https://github.com/multilingualprogramming/docs",
+      "site_url": "https://multilingualprogramming.github.io/docs/",
+      "language": "English",
+      "status": "active",
+      "last_reviewed": "2026-03-15"
+    },
+    {
+      "id": "playground",
+      "name": "Playground",
+      "category": "tooling",
+      "description": "Browser playground for trying multilingual programs and generated output.",
+      "repo_url": "https://github.com/multilingualprogramming/playground",
+      "site_url": "https://multilingualprogramming.github.io/playground/",
+      "language": "multilingual",
+      "status": "active",
+      "last_reviewed": "2026-03-15"
+    },
+    {
+      "id": "fractales",
+      "name": "Fractales",
+      "category": "showcase",
+      "description": "French-language fractal project built with the multilingual programming language.",
+      "repo_url": "https://github.com/multilingualprogramming/fractales",
+      "site_url": "https://multilingualprogramming.github.io/fractales/",
+      "language": "French",
+      "status": "active",
+      "last_reviewed": "2026-03-15"
+    },
+    {
+      "id": "cellcosmos",
+      "name": "Cellular Automata",
+      "category": "showcase",
+      "description": "French-language cellular automata project published as cellcosmos.",
+      "repo_url": "https://github.com/multilingualprogramming/cellcosmos",
+      "site_url": "https://multilingualprogramming.github.io/cellcosmos/",
+      "language": "French",
+      "status": "active",
+      "last_reviewed": "2026-03-15"
+    }
+  ]
+}

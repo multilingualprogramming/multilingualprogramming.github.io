@@ -4,6 +4,8 @@ This repository contains the GitHub Pages landing site for the Multilingual Prog
 
 The site is a static single-page experience built around [`index.html`](./index.html) and a small set of assets in [`assets/images/`](./assets/images/). It highlights the language, links to documentation and the playground, and showcases related projects.
 
+This repository also acts as the central landing-page registry for linked multilingual projects and includes a scheduled monitoring workflow to help track repo and site changes across the ecosystem.
+
 ## Live site
 
 - Main site: [multilingualprogramming.github.io](https://multilingualprogramming.github.io/)
@@ -26,6 +28,11 @@ The site is a static single-page experience built around [`index.html`](./index.
 
 ```text
 .
+|-- .github/
+|   `-- workflows/
+|-- monitoring/
+|-- scripts/
+|-- projects.json
 |-- index.html
 |-- assets/
 |   `-- images/
@@ -35,6 +42,32 @@ The site is a static single-page experience built around [`index.html`](./index.
 |-- sitemap.xml
 `-- site.webmanifest
 ```
+
+## Project registry
+
+The file [`projects.json`](./projects.json) is the central registry for the projects this landing page points to. Each entry includes the primary repository, live site URL, category, language, status, and review date.
+
+When you add or update a project link on the landing page, update the registry too so monitoring stays in sync.
+
+## Monitoring
+
+This repository now includes a scheduled GitHub Actions workflow at [`.github/workflows/project-watch.yml`](./.github/workflows/project-watch.yml).
+
+It is designed to:
+
+- Check linked GitHub Pages URLs for basic availability
+- Fetch GitHub repository metadata for the tracked projects
+- Record a snapshot in [`monitoring/project-status.json`](./monitoring/project-status.json)
+- Publish a readable report in [`monitoring/project-status.md`](./monitoring/project-status.md)
+- Open an issue when alerts or snapshot changes are detected
+
+The checker itself lives in [`scripts/check_projects.py`](./scripts/check_projects.py).
+
+## Status snapshot
+
+The latest committed monitoring report is available at [`monitoring/project-status.md`](./monitoring/project-status.md).
+
+After the first GitHub Actions run, this file will show the latest observed status for the landing page, docs, playground, and showcase projects.
 
 ## Local preview
 

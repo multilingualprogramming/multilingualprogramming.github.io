@@ -14,6 +14,9 @@ This repository hosts the public GitHub Pages website for the project. Most chan
 
 ## Repository layout
 
+- `projects.json`: central registry of tracked repos and live pages
+- `scripts/check_projects.py`: monitoring script used by GitHub Actions
+- `monitoring/`: generated status snapshots and human-readable reports
 - `index.html`: main landing page, inline styles, and inline JavaScript
 - `assets/images/`: logos, favicon source, and social preview assets
 - `robots.txt`, `sitemap.xml`, `site.webmanifest`: site metadata files
@@ -42,6 +45,7 @@ Then visit `http://localhost:8000/`.
 - Prefer official project URLs under `multilingualprogramming.github.io` and `github.com/multilingualprogramming` when available.
 - Preserve the current visual style unless the change is intentionally a design refresh.
 - Keep external links opening safely with `target="_blank"` and `rel="noopener"` where appropriate.
+- If you add or change a linked project, update `projects.json` in the same change.
 
 ## HTML, CSS, and JS guidance
 
@@ -57,6 +61,7 @@ Please check:
 
 - The page loads without console errors in a browser
 - New links are correct
+- `projects.json` matches any new or updated links
 - Mobile and desktop layouts still work
 - Copy changes are free of obvious typos
 - Any added assets are optimized and referenced correctly
