@@ -1,8 +1,95 @@
 {
-  "generated_at": "pending-first-run",
+  "generated_at": "2026-03-16T08:10:55+00:00",
   "alert_count": 0,
   "changes": [
-    "Awaiting the first GitHub Actions monitoring run."
+    "New project added to registry: Multilingual Programming Language",
+    "New project added to registry: Documentation",
+    "New project added to registry: Playground",
+    "New project added to registry: Fractales",
+    "New project added to registry: Cellular Automata"
   ],
-  "projects": []
+  "projects": [
+    {
+      "id": "main-site",
+      "name": "Multilingual Programming Language",
+      "category": "landing",
+      "language": "multilingual",
+      "site_url": "https://multilingualprogramming.github.io/",
+      "repo_url": "https://github.com/multilingualprogramming/multilingual",
+      "alternate_repo_urls": [
+        "https://github.com/johnsamuelwrites/multilingual"
+      ],
+      "site_status": 200,
+      "repo_status": 200,
+      "repo_default_branch": "main",
+      "repo_pushed_at": "2026-03-10T06:49:16Z",
+      "repo_updated_at": "2026-03-10T06:49:19Z",
+      "repo_open_issues": 0,
+      "alerts": []
+    },
+    {
+      "id": "documentation",
+      "name": "Documentation",
+      "category": "docs",
+      "language": "English",
+      "site_url": "https://multilingualprogramming.github.io/docs/",
+      "repo_url": "https://github.com/multilingualprogramming/docs",
+      "alternate_repo_urls": [],
+      "site_status": 200,
+      "repo_status": 200,
+      "repo_default_branch": "main",
+      "repo_pushed_at": "2026-03-15T18:23:53Z",
+      "repo_updated_at": "2026-03-15T18:23:57Z",
+      "repo_open_issues": 0,
+      "alerts": []
+    },
+    {
+      "id": "playground",
+      "name": "Playground",
+      "category": "tooling",
+      "language": "multilingual",
+      "site_url": "https://multilingualprogramming.github.io/playground/",
+      "repo_url": "https://github.com/multilingualprogramming/playground",
+      "alternate_repo_urls": [],
+      "site_status": 200,
+      "repo_status": 200,
+      "repo_default_branch": "main",
+      "repo_pushed_at": "2026-03-15T18:23:20Z",
+      "repo_updated_at": "2026-03-15T18:23:23Z",
+      "repo_open_issues": 0,
+      "alerts": []
+    },
+    {
+      "id": "fractales",
+      "name": "Fractales",
+      "category": "showcase",
+      "language": "French",
+      "site_url": "https://multilingualprogramming.github.io/fractales/",
+      "repo_url": "https://github.com/multilingualprogramming/fractales",
+      "alternate_repo_urls": [],
+      "site_status": 200,
+      "repo_status": 200,
+      "repo_default_branch": "main",
+      "repo_pushed_at": "2026-03-15T17:59:05Z",
+      "repo_updated_at": "2026-03-15T17:59:09Z",
+      "repo_open_issues": 0,
+      "alerts": []
+    },
+    {
+      "id": "cellcosmos",
+      "name": "Cellular Automata",
+      "category": "showcase",
+      "language": "French",
+      "site_url": "https://multilingualprogramming.github.io/cellcosmos/",
+      "repo_url": "https://github.com/multilingualprogramming/cellcosmos",
+      "alternate_repo_urls": [],
+      "site_status": 200,
+      "repo_status": 200,
+      "repo_default_branch": "main",
+      "repo_pushed_at": "2026-03-16T07:52:41Z",
+      "repo_updated_at": "2026-03-16T07:52:47Z",
+      "repo_open_issues": 1,
+      "alerts": []
+    }
+  ]
 }
