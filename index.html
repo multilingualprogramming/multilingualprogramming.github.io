@@ -1609,7 +1609,7 @@
           <div class="code-window-body">
             <!-- English -->
             <pre class="code-pane active"
-              id="code-en"><span class="tok-cmt"># hello.ml — English frontend</span>
+              id="code-en"><span class="tok-cmt"># hello.multi — English frontend</span>
 <span class="tok-kw">let</span> <span class="tok-var">name</span> <span class="tok-op">=</span> <span class="tok-str">"World"</span>
 
 <span class="tok-kw">def</span> <span class="tok-fn">greet</span><span class="tok-punc">(</span><span class="tok-var">person</span><span class="tok-punc">):</span>
@@ -1626,7 +1626,7 @@
 
             <!-- French -->
             <pre class="code-pane"
-              id="code-fr"><span class="tok-cmt"># bonjour.ml — Frontend français</span>
+              id="code-fr"><span class="tok-cmt"># bonjour.multi — Frontend français</span>
 <span class="tok-kw">soit</span> <span class="tok-var">nom</span> <span class="tok-op">=</span> <span class="tok-str">"Monde"</span>
 
 <span class="tok-kw">déf</span> <span class="tok-fn">saluer</span><span class="tok-punc">(</span><span class="tok-var">personne</span><span class="tok-punc">):</span>
@@ -1643,7 +1643,7 @@
 
             <!-- Japanese -->
             <pre class="code-pane"
-              id="code-ja"><span class="tok-cmt"># こんにちは.ml — 日本語フロントエンド</span>
+              id="code-ja"><span class="tok-cmt"># こんにちは.multi — 日本語フロントエンド</span>
 <span class="tok-kw">変数</span> <span class="tok-var">名前</span> <span class="tok-op">=</span> <span class="tok-str">"世界"</span>
 
 <span class="tok-kw">関数</span> <span class="tok-fn">挨拶</span><span class="tok-punc">(</span><span class="tok-var">人</span><span class="tok-punc">):</span>
@@ -1660,7 +1660,7 @@
 
             <!-- Spanish -->
             <pre class="code-pane"
-              id="code-es"><span class="tok-cmt"># hola.ml — Frontend en español</span>
+              id="code-es"><span class="tok-cmt"># hola.multi — Frontend en español</span>
 <span class="tok-kw">sea</span> <span class="tok-var">nombre</span> <span class="tok-op">=</span> <span class="tok-str">"Mundo"</span>
 
 <span class="tok-kw">def</span> <span class="tok-fn">saludar</span><span class="tok-punc">(</span><span class="tok-var">persona</span><span class="tok-punc">):</span>
@@ -1677,7 +1677,7 @@
 
             <!-- Arabic -->
             <pre class="code-pane"
-              id="code-ar"><span class="tok-cmt"># مرحبا.ml — الواجهة العربية</span>
+              id="code-ar"><span class="tok-cmt"># مرحبا.multi — الواجهة العربية</span>
 <span class="tok-kw">دع</span> <span class="tok-var">الاسم</span> <span class="tok-op">=</span> <span class="tok-str">"العالم"</span>
 
 <span class="tok-kw">دالة</span> <span class="tok-fn">تحية</span><span class="tok-punc">(</span><span class="tok-var">شخص</span><span class="tok-punc">):</span>
@@ -1847,7 +1847,7 @@
           <div class="feature-card reveal reveal-delay-2">
             <div class="feature-icon icon-orange">🔀</div>
             <h3 class="feature-title">Cross-Language Modules</h3>
-            <p class="feature-body">Import <code>.ml</code> modules across languages. A French module and an English
+            <p class="feature-body">Import <code>.multi</code> modules across languages. A French module and an English
               main file can run through the same execution pipeline.</p>
           </div>
           <div class="feature-card reveal reveal-delay-3">
@@ -1878,7 +1878,7 @@
             <div class="pipeline-node">
               <div class="pipeline-node-inner">✍️</div>
             </div>
-            <div class="pipeline-label">Source .ml</div>
+            <div class="pipeline-label">Source .multi</div>
             <div class="pipeline-sub">17 languages</div>
           </div>
           <div class="pipeline-step">
@@ -2063,7 +2063,7 @@
       <div class="container">
         <p class="section-label reveal">Quick Start</p>
         <h2 class="section-title reveal">Up and running<br /><span class="grad-text">in 60 seconds.</span></h2>
-        <p class="section-body reveal">Install from PyPI, write a <code>.ml</code> file in your language, and run it.
+        <p class="section-body reveal">Install from PyPI, write a <code>.multi</code> file in your language, and run it.
           Requires Python 3.12 or newer. Optional extras enable the WAT/WASM toolchain.</p>
 
         <div class="install-grid">
@@ -2093,16 +2093,16 @@
 
           <div class="install-card reveal reveal-delay-1">
             <div class="install-card-header">
-              <span class="install-card-title">run a .ml file</span>
+              <span class="install-card-title">run a .multi file</span>
               <button class="copy-btn" onclick="copyCode(this, 'run-ml')">copy</button>
             </div>
             <div class="install-card-body">
               <pre
-                id="run-ml"><span class="tok-cmt"># hello.ml</span>
+                id="run-ml"><span class="tok-cmt"># hello.multi</span>
 <span class="tok-fn">print</span><span class="tok-punc">(</span><span class="tok-str">"Hello world"</span><span class="tok-punc">)</span>
 
-<span class="tok-prompt">$</span> <span class="tok-cmd">multilingual</span> <span class="tok-arg">hello.ml</span>
-<span class="tok-prompt">$</span> <span class="tok-cmd">multilingual run</span> <span class="tok-arg">bonjour.ml</span> <span class="tok-flag">--lang fr</span></pre>
+<span class="tok-prompt">$</span> <span class="tok-cmd">multilingual</span> <span class="tok-arg">hello.multi</span>
+<span class="tok-prompt">$</span> <span class="tok-cmd">multilingual run</span> <span class="tok-arg">bonjour.multi</span> <span class="tok-flag">--lang fr</span></pre>
             </div>
           </div>
 
@@ -2221,7 +2221,7 @@
                 <div class="code-window-title">WAT / WASM Architecture</div>
               </div>
               <div class="code-window-body">
-                <pre style="font-size:0.75rem;line-height:1.9;color:var(--text-secondary)"><span style="color:var(--purple-light)">Source .ml (17 langs)</span>
+                <pre style="font-size:0.75rem;line-height:1.9;color:var(--text-secondary)"><span style="color:var(--purple-light)">Source .multi (17 langs)</span>
        │
        ▼
 <span style="color:var(--cyan-light)">Lexer + Parser</span>
